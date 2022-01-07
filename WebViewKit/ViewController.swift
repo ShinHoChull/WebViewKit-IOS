@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("hello world~")
+        print("current branch name is shinyongcheol/test~")
         // Do any additional setup after loading the view.
     }
 
