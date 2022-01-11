@@ -21,6 +21,29 @@
 			</array>
 		</dict>
 	</dict>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+
+    <string>Used to Location&apos;s Info always for Using Beacon.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Used to Location&apos;s Info always for Using Beacon.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Used to Location&apos;s Info for Using Beacon when In Use.</string>
     
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>kakaotalk</string>
+        <string>smilepayapp</string>
+        <string>lpayapp</string>
+        <string>naversearchapp</string>
+        <string>naversearchapp</string>
+        <string>naversearchthirdlogin</string>
+    </array>
+
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
 </dict>
 </plist>

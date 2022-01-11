@@ -13,6 +13,7 @@
 		C94CFF0E278BD42C005816D7 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CFF0D278BD42C005816D7 /* SplashVC.swift */; };
 		C94CFF13278BFDA2005816D7 /* ic_won.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CFF12278BFDA2005816D7 /* ic_won.png */; };
 		C94CFF17278BFF65005816D7 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C94CFF16278BFF65005816D7 /* a.jpg */; };
+		C94CFF19278D0586005816D7 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CFF18278D0586005816D7 /* Function.swift */; };
 		C952A7C227883297005715ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952A7C127883297005715ED /* AppDelegate.swift */; };
 		C952A7C427883297005715ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952A7C327883297005715ED /* SceneDelegate.swift */; };
 		C952A7C927883297005715ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C952A7C727883297005715ED /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		C94CFF0D278BD42C005816D7 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		C94CFF12278BFDA2005816D7 /* ic_won.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_won.png; sourceTree = "<group>"; };
 		C94CFF16278BFF65005816D7 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		C94CFF18278D0586005816D7 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		C952A7BE27883297005715ED /* WebViewKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C952A7C127883297005715ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C952A7C327883297005715ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				C94CFF08278BC96F005816D7 /* Defines.swift */,
+				C94CFF18278D0586005816D7 /* Function.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				C94CFF0C278BCEA2005816D7 /* MainVC.swift in Sources */,
 				C94CFF0E278BD42C005816D7 /* SplashVC.swift in Sources */,
 				C952A7C227883297005715ED /* AppDelegate.swift in Sources */,
+				C94CFF19278D0586005816D7 /* Function.swift in Sources */,
 				C94CFF09278BC96F005816D7 /* Defines.swift in Sources */,
 				C952A7C427883297005715ED /* SceneDelegate.swift in Sources */,
 			);
@@ -628,6 +632,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPN2P99Z2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WebViewKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -657,6 +662,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPN2P99Z2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WebViewKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
