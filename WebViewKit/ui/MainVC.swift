@@ -167,10 +167,8 @@ class MainVC : UIViewController ,  WKUIDelegate , WKNavigationDelegate, WKDownlo
         })
         ac2.setValue(UIColor.darkGray, forKey: "titleTextColor")
         alertController.addAction(ac2)
-        self.present(alertController, animated: true, completion: nil)
+        self.present(alertController, animated: true, completion: nil)  
     }
-    
-    
     
     
     func webView(_ webView: WKWebView, navigationAction: WKNavigationAction, didBecome download: WKDownload) {
